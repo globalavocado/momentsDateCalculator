@@ -1,0 +1,42 @@
+
+<html>
+<head>	
+	<meta charset = utf-8 />
+	<meta name="viewport" content="width=device-width">
+	<title>Moments Tests</title>
+
+	<link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.5.1.css">
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
+ 	<script type="text/javascript" src="locale/it.js"></script>
+	<script type="text/javascript" src="moments.js"></script>
+
+</head>
+
+<body>
+	<div id="qunit"></div>
+
+		<div id="qunit-fixture">
+			
+			<div class="itsawrap">
+
+			<h1 id="heading">tempo per gli amici</h1>
+
+				<p>
+				<input type="text" id="startdate"/>
+				<button onclick="dateCalculation(this)">6 settimane da ora</button>
+				</p>
+
+				<h2 id="result"></h2>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/qunit/qunit-2.5.1.js"></script>
+		<script type="text/javascript" src="moments.js"></script>
+		<script src="momentsTests.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+
+body {
+	font-family: Georgia, serif;
+	background-image: url("umbria.jpg");
+	/* Umbria 2, copyright: Jacek Nowak */
+	background-repeat: no-repeat;
+	background-size: 700px 500px;
+	padding: 5px;
+	width: 30%;
+}
+
+p body {
+	word-wrap: break-word;
+}
+
+div.itsawrap {
+	text-align: left;
+	position: fixed;
+	padding-top: 5;
+	z-index: 1000;
+}
+
+#heading{
+	color: white;	
+}
+
+#result {
+	padding: 5px;
+	color: white;
+}
