@@ -4,7 +4,7 @@ An internationalised browser app that calculates a date 6 weeks in advance from 
 
 ## technologies
 
-- [jQuery 3.3.1]()(https://jquery.com/)
+- [jQuery 3.3.1](https://jquery.com/)
 - [jQuery UI](http://jqueryui.com/) Datepicker
 - [MomentJS](https://momentjs.com/), a date calculation library with support for wide range of foreign languages
 - [QUnit](http://qunitjs.com/) testing framework

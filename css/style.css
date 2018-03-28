@@ -1,8 +1,8 @@
 
 body {
 	font-family: Georgia, serif;
-	background-image: url("umbria.jpg");
-	/* Umbria 2, copyright: Jacek Nowak */
+	background-image: url("../images/umbria.jpg");
+	/* photo copyright: Jacek Nowak */
 	background-repeat: no-repeat;
 	background-size: 700px 500px;
 	padding: 5px;
